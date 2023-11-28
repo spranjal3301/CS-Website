@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE STAFF</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Lato:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+  <%- include('./partials/header.ejs') %>
+    <header class="title">
+        <h1>CSE STAFF</h1>
+    </header>
+    <div class="fac-list">
+        <ul id="fac-list">
+          <li class="fac-item">
+            <div class="fac-dp"><img src="/csestaff/MVR.jpg" alt=""></div>
+            <div class="fac-details">
+              <div class="name">Mr. Maligireddy Venkat Reddy</div>
+              <div class="designation">Technical Officer</div>
+              <div class="email">
+                <p class="key">Email :</p>
+                <p class="value"><a href="mailto:venkat@iiitk.ac.in">venkat@iiitk.ac.in</a></p> 
+              </div>
+              <div class="phone">
+                <p class="key">Institute Phone</p>
+                <p class="value"><a href="tel:08518289134">08518-289134</a></p>
+              </div>
+            </div>
+          </li>
+          <li class="fac-item">
+            <div class="fac-dp"><img src="/csestaff/JC.png" alt=""></div>
+            <div class="fac-details">
+              <div class="name">Mr. Jeejula Charukesh</div>
+              <div class="designation">Junior Assistant (Networking)</div>
+              <div class="email">
+                <p class="key">Email :</p>
+                <p class="value"><a href="mailto:charukesh@iiitk.ac.in">charukesh@iiitk.ac.in</a></p> 
+              </div>
+              <div class="phone">
+                <p class="key">Institute Phone</p>
+                <p class="value"><a href="tel:08518289112">08518-289112</a></p>
+              </div>
+            </div>
+          </li>
+          <li class="fac-item">
+            <div class="fac-dp"><img src="/csestaff/KS.jpg" alt=""></div>
+            <div class="fac-details">
+              <div class="name">Mr. K. Suresh</div>
+              <div class="designation">Junior Technician</div>
+              <div class="email">
+                <p class="key">Email :</p>
+                <p class="value"><a href="mailto:sureshk@iiitk.ac.in">sureshk@iiitk.ac.in</a></p> 
+              </div>
+              <div class="phone">
+                <p class="key">Institute Phone</p>
+                <p class="value"><a href="tel:08518289134">08518-289134</a></p>
+              </div>
+            </div>
+          </li>
+  
+         </ul>
+              <footer><%- include('./partials/footer.ejs') %></footer>
+      </div>
+      <script src="animate.js" type="module" defer></script>
+    
+</body>
+</html>

@@ -1,0 +1,175 @@
+html {
+    /* color-scheme: dark light; */
+    scroll-behavior: smooth;
+  }
+  body {
+    -webkit-font-smoothing: antialiased;
+    min-height: 100vh;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    /* font-family: "Lato",sans-serif; */
+    /* color: #666; */
+  }
+main {
+    background-color: #DBECD8;
+    font-family:"Lato",Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+#starting {
+    margin: 0;
+    padding: 0;
+    font-size: 2.3rem;
+    line-height: normal;
+}
+.heading{
+    margin-left: 12%;
+    margin-bottom: 1.5rem;
+}
+.detailContainer{
+    max-width: 85%;
+    margin: auto;
+    /* border: 5px solid black; */
+}
+.subox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    gap: 0.5rem;
+}
+.subhead {
+    color: #fff;
+    background: rgba(60, 71, 58, 0.73);
+    border-radius: 5px 5px 0 0;
+    font-size: 1rem;
+    /* padding: 1rem 4.1rem;  */
+    min-width: 17.5%;
+    height: 57px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    transition: all .5s ease-in;
+}
+.subhead :hover {
+    color: #06C34B;
+    transition: all .5s ease-out;
+}
+#current {
+    border: 1px solid #06C34B;
+    background: rgba(27, 38, 25, 0.84);
+    color: #06C34B;
+}
+.studentPage a {
+    color: #FDFFFE;
+    text-decoration: none;
+    cursor:none;
+}
+.head2{
+    max-width: 100%; 
+    background-color: #fff;
+    margin: auto;
+    border-radius: 5rem;
+    padding: 4rem 4rem;
+}
+.subox2{
+    /* background-color: gray; */
+    display: flex;
+    gap: 2rem;
+    /* justify-content: center; */
+}
+#current2{
+    border: none;
+    border-right: 2px solid #2D2D2D;
+    border-radius: 0;
+    font-size: 1.7rem;
+    padding-right: 2rem;
+}
+.subhead2{
+    border: 1px solid rgba(27, 38, 25, 0.84);
+    font-size: 1.2rem;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.73);
+    color: #2D2D2D;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.subhead2 a {
+    color: #2D2D2D;
+    /* text-align: center; */
+
+}
+.onit{
+    width: 10rem;
+}
+.onit a:hover{
+    color: #06C34B;
+}
+.studentDetail{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.students{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 5px;
+    transition: all .2s ease-in;
+}
+.roll,.name{
+    border: 1px solid #2D2D2D; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 35px;
+    border-radius: 10px;
+    background: linear-gradient(180deg, rgba(2, 40, 16, 0.14) 13.78%, rgba(47, 58, 136, 0.15) 168.7%);
+    /* color: #7A7A7A; */
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+.roll1 , .name1{
+    background: rgba(27, 38, 25, 0.84);
+    color: #06C34B;
+}
+.students:hover{
+    background-color: rgba(160, 251, 193, 0.41) ; 
+    transition: all .5s ease-out;
+}
+@media screen and (max-width: 800px) {/**Property apply when screenSize 0-600px*/
+    .detailContainer{
+        max-width: 100%;
+       
+    }
+    .subox{
+        flex-direction: column;
+    }
+    .head2{
+        border-radius: 0;
+        padding: 2rem 5px;
+    }
+    .subox2{
+        gap: 1rem;
+        
+    }
+    #current2{
+        font-size: 1.5rem;
+        padding-right: 1rem;
+    }
+  } 
+

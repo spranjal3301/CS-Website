@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    padding: 0;    
+    box-sizing: border-box;
+}
+.Academics_Programs{
+    background: #DBECD8;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+.title{
+    background: #C0DDC0;
+    width: 100%;
+    height: 12.19vh;
+    text-align: center;
+}
+.title h1{
+    margin: 0;
+    text-align: center;
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3rem;
+    padding-top: 1.25rem;
+}
+.title span{
+    text-align: center;
+    font-weight: 100;
+    font-size: 1.8rem;
+    line-height: 2.25rem;
+}
+#B-Tech{
+   width: 100%;
+   height: 107.53vh;
+   border: 0;
+   border-bottom: 2.5rem solid #C0DDC0;
+
+}
+#B-Tech img{
+    float: right;
+    /* margin-left: 70px; */
+    margin: 6.25rem 14rem auto 0;    
+}
+.detail h3{   
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.18rem;
+    line-height: 1.43rem;
+    color: #1A1C2466;
+
+}
+.box{
+    display: inline-block;
+    margin: 0;
+    /* margin-left: 2.5rem; */
+    width: 26.82vw;
+    height: 2.27vh;
+    background-color:#B6DBB6;
+    
+}
+.propgrams{
+    display: inline-block;
+    margin:6.25rem 0 auto 14rem ;
+    
+}
+.about_propgrams{
+    margin: 0;
+    margin-top: 1rem;
+    box-sizing: border-box;
+    width: 491px;
+    height: 412px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.18rem;
+    color: #1C3927;
+}
+#btn1{
+    float: left;
+    margin-left: 14rem;
+    margin-top: 1.87rem;
+}
+.btn {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.18rem;
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 1rem;
+    background:  #06C34B;
+    padding: 10px 12px 10px 16px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    text-decoration: none;
+  }
+#M-Tech{
+    width: 100%;
+    height: 107.53vh;
+    border: 0;
+    border-bottom: 40px solid #C0DDC0;
+}
+.section23 img{
+    float: left;
+    margin:10rem 0 auto 14rem ;  
+    /* margin:99px 0 auto 225px ; */
+}
+.mpropgrams{
+    display: inline-block;
+    margin: 9.25rem 14rem auto 8.93rem;    
+    /* margin: 99px 225px auto 0;  */
+}
+#btn2{
+    float: left;
+    margin-right: 14rem;
+    margin-left: 8.93rem;
+    margin-top: 1.8rem;
+ 
+}
+#PHD{
+    width: 100%;
+    height: 110vh;
+   
+}
+.p_propgrams{
+    display: inline-block;
+    margin: 9.25rem 14rem auto 25rem;    
+  
+}
+#btn3{
+    float: left;
+    margin-top: 1.8rem;
+    margin-right: 14rem;
+    margin-left: 25rem;
+ 
+}
